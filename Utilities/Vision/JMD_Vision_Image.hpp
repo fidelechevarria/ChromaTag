@@ -56,6 +56,7 @@
 
 //system
 #include <cstring>
+#include <math.h>
 
 //utilities
 #include "JMD_Utils_Writer.hpp"

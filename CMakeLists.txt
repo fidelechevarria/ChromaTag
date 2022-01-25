@@ -201,6 +201,7 @@ if (UNIX)
 	find_lib(OpenCV)
     if(OpenCV_FOUND)
         set(Dependencies ${Dependencies} ${OpenCV_LIBS})
+		include_directories(${OpenCV_INCLUDE_DIRS})
     endif(OpenCV_FOUND)
 
     #find optional libraries
